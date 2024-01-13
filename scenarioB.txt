@@ -1,0 +1,14 @@
+Feature: Utilizing "Copilot" on Bing.com to Collect Information about Prowly's Media Monitoring Module
+
+  Scenario: Use "Copilot" to Search for Information about Prowly's Media Monitoring Module
+
+    Given the user is on the CoPilot Bing.com search page
+    When the user activates "Copilot" by entering the command or selecting the option
+    And the user enters the search query "Prowly Media Monitoring module"
+    Then "Copilot" should assist in generating relevant and accurate information about Prowly's Media Monitoring module
+
+  Scenario: Verify the Presence of Key Information in "Copilot" Results
+
+    Given the user has utilized "Copilot" to search for information about Prowly's Media Monitoring module
+    When the search results are displayed
+    Then the results should include key information of Prowly's Media Monitoring module
