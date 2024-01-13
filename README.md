@@ -1,3 +1,3 @@
 # prowly
 
-## test scenarios for Prowly recruitment task writed in Gherkin
+## Test Scenarios for Prowly
