@@ -1,0 +1,16 @@
+Feature: Search Functionality on Bing.com with Content Category Filtering
+
+  Scenario: Search for "Prowly Media Monitoring" with Content Category Filtering
+    
+    Given the user is on the Bing.com search page
+    When the user enters the search phrase "Prowly Media Monitoring" in the search bar
+    And the user does not select any specific category
+    Then the search results page should display relevant results for "Prowly Media Monitoring" in all content categories
+
+
+  Scenario: Search for "Prowly Media Monitoring" with Image Content Category Filter
+
+    Given the user is on the Bing.com search page
+    When the user enters the search phrase "Prowly Media Monitoring" in the search bar
+    And the user selects the content category filter as "Images"
+    Then the search results page should display relevant image results for "Prowly Media Monitoring"
